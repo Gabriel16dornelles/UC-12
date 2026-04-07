@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/index.css">
+</head>
+<body>
+
+
+  <!-- Nível 1 -->
+  <h2>Exercício 1</h2>
+  <div class="ex1">Texto dentro da caixa</div>
+
+  <h2>Exercício 2</h2>
+  <div class="ex2">Texto com border-box</div>
+
+  <!-- Nível 2 -->
+  <h2>Exercício 3</h2>
+  <div class="container">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+  </div>
+
+  <!-- Nível 3 -->
+  <h2>Exercício 4 e 5</h2>
+  <div class="ex4">Caixa normal</div>
+  <div class="ex5">Caixa border-box</div>
+
+  <!-- Nível 4 -->
+  <h2>Exercício 6</h2>
+  <div class="centralizada"></div>
+
+  <!-- Nível 5 -->
+  <h2>Exercício 7</h2>
+  <div class="m1"></div>
+  <div class="m2"></div>
+
+  <!-- Nível 6 -->
+  <h2>Exercício 8</h2>
+  <div class="card">
+    <h3>Título</h3>
+    <p></p>
+    <button>Botão</button>
+  </div>
+
+  <!-- Nível 7 -->
+  <h2>Exercício 9</h2>
+  <div class="erro">Erro corrigido</div>
+
+  <!-- Nível 8 -->
+  <h2>Exercício 10</h2>
+  <div class="cards">
+    <div class="card2">Card 1</div>
+    <div class="card2">Card 2</div>
+    <div class="card2">Card 3</div>
+  </div>
+  
+
+  <!--
+
+  Exercício 1
+
+Resposta:
+Sim, o elemento ficou maior que 200px. Isso acontece porque, por padrão, o CSS considera o width apenas como o tamanho do conteúdo.
+ O padding e a border são somados fora dessa largura, aumentando o tamanho total da caixa.
+
+ 
+Exercício 2
+
+Resposta:
+Com box-sizing: border-box, o tamanho total da caixa continua sendo 200px. Isso acontece porque agora o padding e a border passam a fazer parte da largura definida,
+ não sendo mais somados por fora.
+
+Exercício 3
+
+Resposta:
+O margin é o responsável por afastar os elementos entre si, criando espaço externo. Já o padding apenas aumenta o espaço interno da caixa, 
+afastando o conteúdo da borda, mas não move a caixa em relação às outras.
+
+Exercício 4
+
+Resposta:
+O tamanho total da caixa é 250px. Isso porque somamos:
+200px (conteúdo) + 40px (padding) + 10px (borda) = 250px.
+
+Exercício 5
+
+Resposta:
+Com box-sizing: border-box, o tamanho total passa a ser 200px. O conteúdo interno é reduzido para que padding e borda caibam dentro da largura definida.
+
+
+Exercício 6
+
+Resposta:
+O margin: 0 auto não funciona sem definir uma largura porque o elemento, por padrão, ocupa 100% do espaço disponível. Sem espaço sobrando, não há como centralizar.
+
+
+Exercício 7
+
+Resposta:
+O espaço entre os elementos é 20px, e não 40px. Isso ocorre por causa do colapso de margem, onde margens verticais se juntam e o navegador considera apenas a maior delas. -->
+  
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+  font-family: Arial;
+}
+
+/* Exercício 1 */
+.ex1 {
+  width: 200px;
+  background: gray;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+/* Exercício 2 */
+.ex2 {
+  width: 200px;
+  background: gray;
+  padding: 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+/* Exercício 3 */
+.container {
+  display: flex;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+}
+
+.box1 {
+  background: red;
+  margin-right: 20px; /* afasta */
+}
+
+.box2 {
+  background: blue;
+  padding: 20px; /* não afasta */
+}
+
+/* Exercício 4 */
+.ex4 {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  background: lightgray;
+  margin-bottom: 20px;
+}
+
+/* Exercício 5 */
+.ex5 {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  background: lightgreen;
+  box-sizing: border-box;
+}
+
+/* Exercício 6 */
+.centralizada {
+  width: 200px;
+  background: orange;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Exercício 7 */
+.m1, .m2 {
+  height: 100px;
+  background: purple;
+  margin: 20px;
+}
+
+/* Exercício 8 */
+.card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  background: white;
+}
+
+/* Exercício 9 */
+.erro {
+  width: 200px;
+  padding: 30px;
+  border: 10px solid black;
+  box-sizing: border-box;
+  background: pink;
+}
+
+/* Exercício 10 */
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card2 {
+  width: 30%;
+  padding: 20px;
+  background: lightblue;
+  box-sizing: border-box;
+}
+
