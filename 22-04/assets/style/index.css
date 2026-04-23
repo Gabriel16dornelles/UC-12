@@ -1,0 +1,119 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+
+background-image: url('https://i0.wp.com/geekpopnews.com.br/wp-content/uploads/2023/08/Baki-Hanma.jpg?resize=1200%2C640&ssl=1');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+#placar {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+
+background: linear-gradient(90deg, black, #1a0000);
+color: #ff2a2a;
+
+text-align: center;
+padding: 10px;
+
+font-size: 26px;
+font-weight: bold;
+letter-spacing: 2px;
+
+z-index: 3000;
+border-bottom: 2px solid red;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.caixa {
+background: linear-gradient(145deg, #1a0000, #400000); /* cor estilo Baki */
+border: 2px solid #ff1a1a;
+padding: 30px;
+text-align: center;
+box-shadow: 0 0 20px red, 0 0 40px rgba(255,0,0,0.5);
+width: 320px;
+border-radius: 25px; /* bordas mais arredondadas */
+}
+
+.caixa p {
+margin-bottom: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+
+button {
+display: block;
+width: 100%;
+margin: 8px 0;
+padding: 10px;
+background-color: black;
+color: #ff2a2a;
+border: 1px solid #ff2a2a;
+cursor: pointer;
+font-weight: bold;
+letter-spacing: 1px;
+transition: 0.2s;
+}
+
+button:hover {
+background-color: #ff2a2a;
+color: black;
+transform: scale(1.05);
+box-shadow: 0 0 10px red;
+}
+
+.resultado {
+display: none;
+margin-top: 15px;
+flex-direction: column;
+align-items: center;
+}
+
+.resultado img {
+width: 160px;
+border: 2px solid red;
+box-shadow: 0 0 10px red;
+}
+
+#fim {
+display: none;
+
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+background: radial-gradient(circle, black, #1a0000);
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+z-index: 2000;
+}
+
+#fim img {
+width: 260px;
+margin-bottom: 20px;
+border: 3px solid red;
+box-shadow: 0 0 20px red;
+}
+
+#fim h1 {
+color: #ff2a2a;
+font-size: 42px;
+text-align: center;
+text-shadow: 0 0 10px red;
+}

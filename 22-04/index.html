@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Baki</title>
+<link rel="stylesheet" href="../22-04/assets/style/index.css">
+</head>
+
+<body>
+
+<div id="placar">
+Pontos: <span id="pontos">0</span>
+</div>
+
+<div class="container">
+
+<div class="caixa" id="q1">
+<p>Quem é o pai de Baki Hanma?</p>
+
+<button onclick="responder('A', 1)">A) Doppo Orochi</button>
+<button onclick="responder('B', 1)">B) Yujiro Hanma</button>
+<button onclick="responder('C', 1)">C) Jack Hanma</button>
+<button onclick="responder('D', 1)">D) Oliva</button>
+<button onclick="responder('E', 1)">E) Retsu</button>
+
+<div id="resultado1" class="resultado">
+<img id="gif1" src="msg1">
+<p id="msg1"></p>
+</div>
+</div>
+
+<div class="caixa" id="q2" style="display: none;">
+<p>Qual é o objetivo principal de Baki?</p>
+
+<button onclick="responder('A', 2)">A) Ser rico</button>
+<button onclick="responder('B', 2)">B) Ser famoso</button>
+<button onclick="responder('C', 2)">C) Derrotar seu pai</button>
+<button onclick="responder('D', 2)">D) Virar professor</button>
+<button onclick="responder('E', 2)">E) Abrir uma academia</button>
+
+<div id="resultado2" class="resultado">
+<img id="gif2" src="">
+<p id="msg2"></p>
+</div>
+</div>
+
+<div class="caixa" id="q3" style="display:none;">
+<p>Qual é o estilo de luta de Baki?</p>
+<button onclick="responder('A',3)">Boxe</button>
+<button onclick="responder('B',3)">Mistura de várias artes marciais</button>
+<button onclick="responder('C',3)">Judô apenas</button>
+<button onclick="responder('D',3)">Karatê puro</button>
+<button onclick="responder('E',3)">Capoeira</button>
+
+<div id="resultado3" class="resultado">
+<img id="gif3"><p id="msg3"></p>
+</div>
+</div>
+
+<div class="caixa" id="q4" style="display:none;">
+<p>Quem é conhecido como "a criatura mais forte da Terra"?</p>
+<button onclick="responder('A',4)">Baki</button>
+<button onclick="responder('B',4)">Jack</button>
+<button onclick="responder('C',4)">Yujiro</button>
+<button onclick="responder('D',4)">Oliva</button>
+<button onclick="responder('E',4)">Hanayama</button>
+
+<div id="resultado4" class="resultado">
+<img id="gif4"><p id="msg4"></p>
+</div>
+</div>
+
+<div class="caixa" id="q5" style="display:none;">
+<p>Onde muitas lutas importantes acontecem em Baki?</p>
+<button onclick="responder('A',5)">Na escola</button>
+<button onclick="responder('B',5)">No ringue oficial</button>
+<button onclick="responder('C',5)">Arena subterrânea</button>
+<button onclick="responder('D',5)">Na rua apenas</button>
+<button onclick="responder('E',5)">No exército</button>
+
+<div id="resultado5" class="resultado">
+<img id="gif5"><p id="msg5"></p>
+</div>
+</div>
+
+</div>
+
+<div id="fim">
+<img src="../22-04/assets/image/final.gif">
+<h1>OBRIGADO POR JOGAR! continue sua jornada, lutador...</h1>
+</div>
+
+<script src="../22-04/js/index.js"></script>
+</body>
+</html>
