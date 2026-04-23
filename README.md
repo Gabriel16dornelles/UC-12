@@ -5,4 +5,6 @@ exercicio 14-04  https://gabriel16dornelles.github.io/UC-12/14-04/index
 
 exercicio 15-04  https://gabriel16dornelles.github.io/UC-12/15-04/index
 
+exercicio quiz 22-04  https://gabriel16dornelles.github.io/UC-12/22-04/index
+
 
