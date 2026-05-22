@@ -5,6 +5,6 @@ exercicio 14-04  https://gabriel16dornelles.github.io/UC-12/14-04/index
 
 exercicio 15-04  https://gabriel16dornelles.github.io/UC-12/15-04/index
 
-exercicio trabalho final  https://gabriel16dornelles.github.io/UC-12/tabalhofinal-wanderland/index
+exercicio trabalho final  https://gabriel16dornelles.github.io/UC-12/tabalhofinal-wanderland
 
 
